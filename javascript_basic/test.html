@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fadfas</title>
+
+	<img src="" href="">
+
+	<a href="">   <img src="">        </a>
+
+	<style type="text/css">
+		
+
+
+
+
+		.democlass{
+
+
+			background-color: red;
+		}
+
+
+	</style>
+	<script>
+
+
+function fun1(){
+
+let a = document.getElementById('x').value;
+let r = Math.pow(a,2);
+
+  document.getElementById("demo1").innerHTML = r;
+
+}
+
+
+function fun2(){
+	  document.getElementById("demo1").innerHTML = "key pressed";
+
+
+}
+function fun3(){
+	  document.getElementById("demo1").innerHTML = "mouse is hovering";
+
+
+}
+function fun4(){
+	let a = number(document.getElementById('val1').value);
+		let b = (document.getElementById('val2').value);
+
+let r = ;
+
+  document.getElementById("demo1").innerHTML = r;
+
+
+}
+
+function fun5(){
+	let a = document.getElementById('val1').value;
+		let b = document.getElementById('val2').value;
+
+let r = a-b;
+
+  document.getElementById("demo1").innerHTML = r;
+
+
+}
+-----------------------------------------------------------------------------
+  function fun7(){
+  	 var ar= new Array(1,2,3,4,5);
+var hel = 0;
+
+  	for (var i = 0; i<= 4; i++) {
+
+  	 hel += ar[i];
+  	}
+
+
+  	 
+  		  document.getElementById("demo1").innerHTML = hel;
+
+
+
+  }
+
+
+
+	function demo_add() {
+
+
+		var a = 2;
+		// document.getElementById("demo1").innerHTML = 4;
+	
+var i;
+for (i = 0; i <= 10; i++) {
+  document.getElementById("demo1").innerHTML += "\n"+ a*i;
+
+}
+// document.getElementById("demo1").innerHTML = a;
+
+
+  }
+
+
+var btn = document.createElement("button");
+
+var t = document.createTextNode("click me");
+
+
+btn.appendChild(t);
+
+document.body.appendChild(btn);
+
+
+var h1 = document.getElementsByTagName("H1")[0];
+				let att = document.createAttribute("class");
+
+				att.value = "democlass";
+
+
+
+h1.setAttributeNode (att);
+
+
+
+</script>
+<!-- <script src="javascript.js"></script>
+ --></head>
+
+
+
+
+<body>
+
+
+	<h1>
+		fgasdasf 
+
+
+	</h1>
+
+
+
+
+
+
+
+
+<div id="demo1">
+	
+
+	hello result!!!
+
+
+</div>
+
+
+	<!-- <input type="Number" id="x" onkeypress="fun2();" onmouseover="fun3();" onchange ="fun1();" oninput = "func1();"> -->
+
+<input type="number" id="val1" >
+
+<input type="number" id="val2">
+
+
+
+
+
+
+	<!-- <button onclick="fun6();">Add</button> -->
+		<button type="submit" onclick="fun7();">Subtract</button>
+
+
+
+
+
+
+</body>
+</html>
